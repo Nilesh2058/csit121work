@@ -1,0 +1,64 @@
+main {
+    width: 70%;
+    max-width: 640px;
+    min-width: 600px;
+    min-height: 100%;
+    border: .2em solid rgb(186, 49, 59);
+    margin: auto;
+    background-color: rgb(98, 186, 103);
+    padding: 1em 2em;
+    background-image: url(images/backround1.jpg);
+}
+
+main nav {
+    background-color: rgb(158, 158, 158);
+    border: .2em solid DarkSlateGray;
+}
+
+
+main nav ul {
+    
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main nav ul li {
+    margin: 0 1em 
+}
+
+main nav ul li a {
+    padding: 0 1em;
+    color: black;
+    text-decoration: none;
+}
+main nav ul li a:hover {
+    background-color: rgb(136, 225, 148);
+}
+section {
+ 
+}
+
+section img {
+    margin: 1em;
+    border: 1px solid rgb(237, 35, 35);
+}
+
+pre {
+    background-color: rgb(193, 99, 99);
+    padding: 1em;
+    border: .2em solid rgb(121, 60, 60);
+    font-size: 110%;
+}
+code {
+    font-family: monospace;
+}
+
+.highlight {
+    background-color: rgb(141, 96, 147);
+    padding: 1em;
+    border: .2em solid LightGray;
+    font-size: 110%;
+    font-weight: bold;
+}
