@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tierlist.html">Tier List</a>
+    </nav>
+
+    <h1>Contact Us</h1>
+    <form action="" method="post" aria-label="Contact Form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+        </div>
+        
+        <div>
+            <label for="favorite-movie">Favorite Movie:</label>
+            <input type="text" id="favorite-movie" name="favorite-movie" required>
+        </div>
+
+        <div>
+            <label>Do you agree with our rankings?</label>
+            <input type="radio" id="agree-yes" name="agree" value="yes">
+            <label for="agree-yes">Yes</label>
+            <input type="radio" id="agree-no" name="agree" value="no">
+            <label for="agree-no">No</label>
+        </div>
+
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" maxlength="1600"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="form_script.js"></script>
+</body>
+</html>
