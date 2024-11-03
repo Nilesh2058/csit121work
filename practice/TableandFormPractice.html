@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Form Practice</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        /* Form styling */
+        form {
+            font-family: Arial, sans-serif;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            width: auto;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        input[type="reset"] {
+            width: auto;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+        input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Class Schedule Table -->
+    <h2>CCBC Class Schedule Fall 2024</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CSIT 121</td>
+                <td>Web Standards</td>
+                <td>Prof. Veronica Noone</td>
+            </tr>
+            <tr>
+                <td>CSIT 166</td>
+                <td>Intro to Mobile App Development</td>
+                <td>Prof. Fernando Paniagua</td>
+            </tr>
+            <tr>
+                <td>CSIT 161</td>
+                <td>Intro to Information Assurance</td>
+                <td>Prof. Windy Chen</td>
+            </tr>
+            <tr>
+                <td>CSIT 120</td>
+                <td>Diversity in Tech Society</td>
+                <td>Kauser Hassan</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Feedback Form -->
+    <h2>Feedback Form</h2>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="username@example.com" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" maxlength="1600" placeholder="Please have your feedback here!!!" required></textarea>
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+    <!-- Footer with Contact Information -->
+    <footer>
+        <p> &copy; Nilesh Jung Kunwar</p>
+        <p>Contact me at <a href="mailto:nileshjung2058@gmail.com">nileshjung2058@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
