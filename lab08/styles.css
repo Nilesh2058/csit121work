@@ -15,9 +15,9 @@ main  {
     border: .2em solid DarkSlateGray;
 }
 
-section img {
+div img {
     margin: 1em;
-    border: 1px solid rgb(237, 35, 35);
+    border: 3px solid rgb(24, 198, 228);
 }
 
 pre {
