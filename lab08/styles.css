@@ -1,0 +1,78 @@
+main {
+    width: 90%;
+    max-width: 640px;
+    min-width: 600px;
+    min-height: 100%;
+    border: .2em solid rgb(186, 49, 59);
+    margin: auto;
+    background-color: rgb(98, 186, 103);
+    padding: 1em 2em;
+    background-image: url(images/backround1.jpg);
+}
+
+main  {
+    background-color: rgb(158, 158, 158);
+    border: .2em solid DarkSlateGray;
+}
+
+div img {
+    margin: 1em;
+    border: 3px solid rgb(24, 198, 228);
+}
+
+pre {
+    background-color: rgb(193, 99, 99);
+    padding: 1em;
+    border: .2em solid rgb(121, 60, 60);
+    font-size: 110%;
+}
+code {
+    font-family: monospace;
+}
+
+.highlight {
+    background-color: rgb(141, 96, 147);
+    padding: 1em;
+    border: .2em solid LightGray;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
