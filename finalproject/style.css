@@ -1,0 +1,182 @@
+/* General Body Styles */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Side Navigation Styling */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Button to open the sidenav */
+span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}
+
+span:hover {
+    background-color: #ddd;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+section h2, aside h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p, aside p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Background Image for a Section */
+section {
+    background-image: url('web.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    color: #333; /* White text for contrast on background */
+    align-self: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Aside Styling */
+aside {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #333;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Unordered List Styling */
+ul {
+    padding-left: 40px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .sidenav a {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}
